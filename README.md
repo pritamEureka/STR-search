@@ -7,7 +7,7 @@ Training platform where a trainee picks a short-term-rental property, fills in t
 Prerequisites: Node 20+, the FastAPI backend running on `http://localhost:8000` (`cd backend/strs_fe_assessment_v1/backend && docker compose up -d --build`).
 
 ```bash
-cd frontend
+cd STR-search
 npm install
 npm run dev          # http://localhost:3000
 ```
