@@ -2,6 +2,8 @@
 
 Training platform where a trainee picks a short-term-rental property, fills in the underwriting, submits it, and is graded against an analyst's reference. Built with **Next.js 16 (App Router) Â· React 19 Â· TypeScript Â· Tailwind CSS 4 Â· shadcn/ui Â· TanStack Query Â· react-hook-form Â· zod Â· Playwright**.
 
+The video workflow drive link is attached in `workflow-recording.txt`.
+
 ## Setup
 
 Prerequisites: Node 20+, the FastAPI backend running on `http://localhost:8000` (`cd backend/strs_fe_assessment_v1/backend && docker compose up -d --build`).
@@ -30,4 +32,3 @@ npm run test:e2e:live             # optional: same user path against the REAL AP
 ```
 
 `npm run test:e2e` runs **90 tests in ~2 min** with no manual steps and no external services.
-
